@@ -281,15 +281,16 @@
 
 
 /* sponsor part start */
-.sponsor{
+.sponsor {
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     padding: 100px 0;
 }
+
 .sponsor-container-main {
     display: flex;
     margin: 20px;
     margin-left: 20px;
-    
+
 }
 
 .sponsor-con {
@@ -302,10 +303,12 @@
     background: #FFF;
     margin-left: 20px;
 }
-.sponsor-con-main-2{
+
+.sponsor-con-main-2 {
     display: flex;
     justify-content: center;
 }
+
 /* sponsor part end */
 
 /* footer part start */
@@ -315,12 +318,14 @@
     text-align: center;
     padding: 120px 0;
 }
-.footer-logo{
+
+.footer-logo {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.footer-logo h1{
+
+.footer-logo h1 {
     font-size: 45px;
     margin-left: 10px;
 }
@@ -333,17 +338,44 @@
     align-items: center;
     list-style: none;
 }
-.footer-list ul li {
+
+.footer-list ul,
+.footer-policy ul {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
 }
-.footer-icon i{
+
+.footer-list ul li {
+    list-style: none;
+
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 50px;
+
+}
+
+.footer-policy ul li {
+    list-style: none;
+    font-size: 18px;
+    margin: 20px;
+    color: rgba(255, 255, 255, 0.60);
+}
+
+.footer-icon i {
     color: #FFF;
     font-size: 30px;
-    margin: 20px 30px;
+    margin: 0px 30px 30px 30px;
     cursor: pointer;
 }
-.footer-policy ul{
-    display: grid;
-    grid-template-columns: repeat(4,1 fr);
+
+.footer-copy {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
 }
+
 /* footer part end */
