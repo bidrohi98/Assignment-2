@@ -1,4 +1,6 @@
 * {
+    margin: 0;
+    padding: 0;
     font-family: 'PT Serif', serif;
     font-family: 'Work Sans', sans-serif;
 }
@@ -9,6 +11,13 @@
     margin: auto;
     display: flex;
     justify-content: space-between;
+    padding: 20px 0;
+}
+
+/* container */
+.contianer {
+    width: 80%;
+    margin: auto;
 }
 
 .nav-logo {
@@ -79,6 +88,7 @@
     width: 80%;
     margin: auto;
     display: flex;
+    align-items: center;
 }
 
 .banner-info {
@@ -99,19 +109,19 @@
     font-size: 95px;
     font-weight: 800;
     text-transform: uppercase;
-    margin-top: 0px;
+    margin-top: 20px;
 }
 
 .bullet-point {
     list-style: none;
-    margin-top: -50px;
+    margin-top: 24;
 
 }
 
 .bullet-point i {
     color: #F948B2;
     margin-right: 10px;
-    margin-left: -30px;
+
 }
 
 .bullet-point li {
@@ -120,10 +130,12 @@
     text-transform: lowercase;
     margin-top: 17px;
 }
-.btn{
-    margin-top: 40px ;
-    
+
+.btn {
+    margin-top: 40px;
+
 }
+
 .btn-primary {
     width: 160px;
     height: 65px;
@@ -136,11 +148,12 @@
     padding: 21px 40px;
     border: none;
 }
+
 .btn-secondary {
     width: 170px;
     height: 65px;
     border-radius: 48px;
-    background:#4EC5F7;;
+    background: #4EC5F7;
     color: #FFF;
     font-size: 18px;
     font-weight: 600;
@@ -148,6 +161,69 @@
     padding: 21px 30px;
     border: none;
 }
-.banner-img img{
-    height: 80vh;}
+
+.banner-img img {
+    height: 80vh;
+}
+
 /* banner part end */
+
+/* gamer part start */
+.gamer-container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.gamer-img img{
+    width: 100%;
+    height: 100%;
+}
+.gamer-info {
+    width: 80%;
+    align-items: center;
+    text-align: right;
+    padding: 100px 0;
+    margin-left: 70px;
+}
+
+.game-part {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.gamer-title {
+    text-align: right;
+    font-size: 48px;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    margin-bottom: 20px;
+}
+
+.gamer-description {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom:30px ;
+}
+
+#gamer-btn {
+    width: 200px;
+    padding: 20px;
+    margin-bottom: 24px;
+}
+
+.qoute-para {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.qoute-span {
+    color: #0B0223;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 45px;
+}
+
+/* gamer part end */
