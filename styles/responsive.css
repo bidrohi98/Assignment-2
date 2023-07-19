@@ -112,5 +112,14 @@
     .play-game-container{
         display: none;
     }
-    
+    .sponsor{
+        display: none;
+    }
+    .footer-container {
+        width: 100%;
+    }
+    .footer-list{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
 }

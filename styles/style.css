@@ -265,9 +265,41 @@
 .online-game-container {
     margin-top: 48px;
 }
+.game-card{
+  
+    height: 470px;
+    width: 350px;
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    transition: opacity 0.4s each-in-out;
+    background: black;
+    cursor: pointer;
+    color: #F948B2;
+    border: 2px solid #F948B2;
+}
 
+.content {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    color: #FFFFFF;
+    text-align: center;
+   
+
+}
+.game-card:hover .overlay{
+    opacity: .7;
+}
 .game-card img {
-    width: 90%;
+    width: 100%;
+    position: relative;
 }
 
 .game-card p {
@@ -310,7 +342,7 @@
     margin-top: 20px;
 }
  
-}
+
 .play-game-img img{
     display: flex;
 }
