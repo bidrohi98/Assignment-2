@@ -1,0 +1,116 @@
+/* for mobile device */
+@media screen and (max-width:576px) {
+    .nav-container {
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+    .nav-items ul {
+        flex-direction: column;
+
+    }
+
+    .nav-items ul li {
+        margin-top: 10px;
+    }
+
+    .nav-items-extn ul {
+        flex-direction: row;
+    }
+
+    .nav-items-extn {
+        margin-top: 10px;
+    }
+
+    /* banner part */
+    .banner-container {
+        flex-direction: column-reverse;
+        margin: 50px 0;
+    }
+
+    .banner {
+        background-size: 100%;
+    }
+
+    .banner-info {
+        width: 100%;
+        background-image: url("../images/Group\ 14.png");
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .banner-title {
+        font-size: 24px;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .banner-title-second {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .bullet-point {
+        align-items: center;
+        justify-content: center;
+        margin-left: 80px;
+    }
+
+    .banner {
+        background-image: none;
+    }
+
+    /* game part */
+    .gamer-container {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .gamer-info {
+        justify-content: center;
+        padding: 50px 0;
+       
+    margin: auto;
+    }
+
+    .gamer-title {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .gamer-description {
+        text-align: center;
+    }
+    .quote{
+        text-align: center;
+    }
+    /* online game part */
+    .online-game {
+       margin: auto;
+        width: 90%;
+    }
+    .online-game-title {
+        font-size: 24px;
+        
+    }
+    .online-game-description{
+        font-size: 14px;
+        margin-top: 5px;
+    }
+    .online-game-container{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .game-card{
+        margin-bottom: 30px;
+    }
+    /* play game start */
+    .play-game-container{
+        display: none;
+    }
+    
+}

@@ -291,7 +291,7 @@
     align-items: center;
     width: 400px;
     height: 500px;
-
+}
 
 .play-game-title {
     text-align: right;
@@ -351,6 +351,7 @@
 .sponsor-con:hover {
     border: 2px solid #F948B2;
     color: #F948B2;
+    
 
 }
 
