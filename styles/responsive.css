@@ -174,10 +174,7 @@
       .copyrights p span {
         display: block;
       }
-      /* .cards {
-        width: 80% !important;
-        margin-bottom: 20px !important;
-      } */
+     
       .online-game-card:hover .online-game-content {
         height: 80% !important;
         border-radius: 8px;
@@ -190,3 +187,192 @@
 }
 
 /* tablet part */
+@media screen and (max-width:768px) {
+    .nav-container {
+        flex-direction: column;
+        justify-content: center;
+
+        width: 100%;
+        margin: auto;
+    }
+
+    .nav-items {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-items ul {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .nav-items ul li {
+        margin-top: 10px;
+    }
+
+    .nav-items-extn {
+        justify-content: center;
+        width: 250px;
+        margin-top: 10px;
+    }
+
+    /* banner part */
+    .banner-container {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+    .banner-img img{
+        width: 95%;
+    }
+    .banner-title {
+        font-size: 24px;
+        margin-bottom: 0;
+        padding: 0;
+    }
+
+    .banner-title-second {
+        margin-top: 0px;
+        font-size: 50px;
+    }
+
+    .bullet-point li {
+        font-size: 16px;
+    }
+
+    .banner {
+        background-image: none;
+    }
+
+    .banner-info {
+        background-image: url('/images/Group\ 14.png');
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        margin-top: 30px;
+    }
+
+    /* gamer part start */
+    .gamer-con-main {
+        flex-direction: column;
+    }
+
+    .game-img img {
+        height: 350px;
+        width: 95%;
+    }
+
+    .game-info {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .game-title {
+        font-size: 30px;
+    }
+
+    .game-description {
+        font-size: 16px;
+    }
+
+    /* online game start */
+    .online-game-con-main {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 65px;
+
+    }
+
+    .online-game-card {
+        margin-bottom: 20px;
+    }
+
+    .container-title {
+
+        font-size: 24px;
+        font-weight: 500;
+    }
+
+    .description {
+
+        font-size: 12px;
+        margin-top: 10px;
+    }
+
+    /* online game end */
+    /*  */
+    .play-game-con-main {
+        flex-direction: column;
+    }
+
+    .play-game-info {
+        width: 80% !important;
+    }
+
+    h3.section-title {
+        text-align: center;
+        font-size: 30px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+
+    p.text-description {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .play-game-img {
+        width: 65% !important;
+    }
+
+    h3.play-title {
+        text-align: center !important;
+    }
+
+    p.play-description {
+        text-align: center !important;
+        margin-bottom: 20px !important;
+    }
+
+    /*  */
+    /*  */
+    .sponsor-box{
+        display: flex;
+        flex: 1 1 100px;
+      }
+      .sponsor-img p {
+        font-size: 8px;
+      }
+      .sponsor-box{
+        margin: 15px 20px;
+      }
+      .footer-logo img {
+        width: 10% !important;
+      }
+      .footer-list-link a {
+        line-height: 40px;
+      }
+      .footer-icon-link a {
+        padding: 0px 40px !important;
+      }
+      .footer-icon-link i {
+        padding: 15px 0;
+      }
+      .footer-team-link a {
+        line-height: 40px;
+      }
+      .copyrights p span {
+        display: block;
+      }
+      
+      .online-game-card:hover .online-game-content {
+        height: 80% !important;
+        border-radius: 8px;
+      }
+      .img-overlay p{
+        color: #FF42A5;
+      }
+    /*  */
+
+}
