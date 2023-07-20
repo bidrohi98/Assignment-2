@@ -498,10 +498,12 @@
     left: 0;
     opacity: 1;
     border-radius: 8px;
+    border: 2px solid #F948B2;
   }
   .online-game-card .img-overlay {
     width: 100%;
     position: absolute;
+    
     top: 0;
     left: 0;
     right: 0;
